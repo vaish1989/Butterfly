@@ -1,0 +1,505 @@
+
+*{
+   box-sizing: border-box;
+
+	 }
+body{
+	font-size: 18px;
+	color: #d3f2e2;
+	background-color: #fadede;
+	font-family: sans-serif;
+}
+
+/* header */
+#header-nav{
+	
+	background-color: #d3f2e2;
+	border-radius: 0;
+	border: 0;
+
+
+
+}
+
+.container{
+	margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#logo-img{
+	background: url('../images/logo.png') no-repeat;
+	width: 200px;
+	height: 200px;
+	margin: 0px 0px 0px 0;
+}
+
+
+.navbar-brand{
+	padding-top: 25px;
+
+
+}
+
+.navbar-brand h1{
+	font-family: 'Italiana', serif;
+	color: #A11F1D;
+	font-size: 3em;
+	text-shadow: 2px 2px 2px #8dbaa3;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+	letter-spacing: 10px;
+}
+
+.navbar-brand h4{
+	font-family: 'Alice', serif;
+	color: #A11F1D;
+	font-size: 22px;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: right;
+	margin-right: 20px;
+	line-height: 50px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-brand p {
+	color: #2f1b45;
+	text-transform: uppercase;
+	font-size: 0.5em;
+	margin-top: 15px;
+}
+
+.navbar-brand p span{
+	vertical-align: middle;
+}
+
+
+#phone {
+  margin-top: 5px;
+
+  
+}
+
+#phone a { /* Phone number */
+  
+  text-decoration: none;
+  padding-bottom: 0;
+  color: #194f70;
+
+}
+#phone div { /* We Deliver */
+  color: #A11F1D;
+  text-align: left;
+  text-decoration: none;
+  padding-right: 15px;
+
+}
+
+#phone a:hover {
+  text-decoration: underline;
+  color: #A11F1D;
+  
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #94283c;
+    transition: 1s ease; 
+}
+
+.navbar-nav li{
+	margin-left: 160px;
+}
+
+.navbar a{
+	color: red;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+   color: #85c9a6;
+}
+
+.navbar a {
+    color: #85c9a6;
+}
+
+.navbar a:hover {
+    color: #94283c;
+    transition: 1s ease; 
+    background-color: #fcf2e3;
+}
+
+.navbar-light .navbar-nav .active .nav-link{
+    color: #94283c;
+}
+
+/*dropdown when active*/
+ .navbar-light .navbar-nav .show>.nav-link {
+    color: #94283c;
+}
+
+/*dropdown button*/
+.navbar-light .navbar-toggler {
+    background-color: #D3F2E2;
+    }
+/*dropdown button border*/
+.navbar-light .navbar-toggler {
+    
+    border-color: transparent;
+}    
+
+/*home navbar background*/
+.bg-light {
+    background-color: #fcf2e3!important;
+   padding-top: 30px;
+   padding-bottom: 10px;
+}
+
+/*dropdown inside home navbar*/
+.dropdown-menu {
+	background-color: #fff5f5;
+	border: transparent;
+}
+
+.jumbotron p{
+	text-align: center;
+	padding-top: 10px;
+	color: #fff;
+}
+
+#menu-tile, #specials-tile, #map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 1px solid #ed93aa;
+	overflow: hidden;
+	box-shadow: 1px 1px #deabab;
+	border-radius: 8px; 
+
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+	box-shadow: 0 2px 5px 2px #f7658b;
+}	
+
+#menu-tile{
+	background: url('../images/tea.jpg') no-repeat;
+	background-position: center;
+}
+
+#specials-tile{
+	background: url('../images/cookie.jpg') no-repeat;
+	background-position: center;
+}
+
+
+#menu-tile span, #specials-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #141414;
+	color: #ffe0e9;
+	opacity: 0.8;
+}
+
+/*footer*/
+footer{
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)),url(../images/3251507.jpg) no-repeat center center;
+}
+
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#hours, #address{
+	line-height: 2;
+}
+
+#hours, #address {
+	font-size: 0.8em;
+}
+
+#address p{
+	color: #ffb3c6;
+	
+	line-height: 1.8;
+}
+
+#testimonials{
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+#testimonials p:nth-child(2){
+	margin-top: 25px;
+}
+
+/*menu*/
+.category-tile{
+
+	position: relative;
+	border: 2px solid #ff99b1;
+	border-radius: 8px;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+
+.text-center{
+	margin-bottom: 20px;
+	color: #f0718f;
+}
+
+#main-content h2{
+	margin-top: 40px;
+}
+.category-tile span{
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-family: 'Alice', serif;
+	font-size: 1.2em;
+	text-transform: capitalize;
+	background-color: #FCF2E3;
+	color: #fa7592;
+	opacity: 0.9;
+}
+
+.category-tile:hover{
+	box-shadow: 0 1px 5px 1px #ed5579;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #94283c;
+}
+
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+  color: #f0718f;
+}
+.menu-item-tile hr {
+  width: 100%;
+  color: green;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 0.9em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: 9px;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #ff94ad; 
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: -7px;
+  width: 80px;
+  background-color: #FCF2E3;
+  border-radius: 5px;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+  font-size: 26px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/* END SINGLE CATEGORY PAGE */
+
+
+
+
+
+
+/*img container*/
+@media (min-width: 600px){
+.container .jumbotron {
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../images/damn.jpg) no-repeat center center;
+	background-size: cover;
+    width: 650px;
+    height: 700px;
+    padding: 10px;
+    margin-left: 80px;
+    margin-top: 80px
+    padding: 50px;
+     box-shadow: 2px 2px #deabab;
+     margin-top: 50px;
+}}
+
+@media (max-width: 600px){
+.container .jumbotron {
+    
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../images/damn2.jpg) no-repeat center center;
+	background-size: cover;
+    width: 343px;
+    height: 500px;
+    padding: 10px;
+    margin-left: -84px;
+    padding: 50px;
+     box-shadow: 2px 2px #deabab;
+     margin-top: 30px;
+}}
+
+
+@media (max-width: 600px){
+.jumbotron p{
+	font-size: 28px;
+	opacity: 0.7;
+	text-align: center;
+	margin-top: 170px;
+	color: #fff;
+}}
+
+
+
+
+
+
+
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media (max-width: 500px) { 
+   .navbar-brand h1{
+    font-size: 10vw;
+    margin-left: -50px;
+    letter-spacing: 10px;
+    
+  }
+}
+
+@media (max-width: 600px){
+	.navbar-nav li{
+	margin-left: 18px;
+}
+}
+
+
+@media (max-width: 600px){
+.navbar-brand h4{
+	font-size: 4vw;
+    
+}}
+
+/*kosher cert*/
+@media (max-width: 600px){
+.navbar-brand p{
+	font-size: 0.4em;
+	margin: 0;
+}}
+
+@media (max-width: 600px){
+.navbar-brand p img{
+	height: 10px;
+}}
+
+@media (min-width: 599px){
+.container .blahbar{
+	width: 800px;
+	margin-top: 100px;
+}}
+
+@media (max-width: 599px){
+.container .blahbar{
+	width: 350px;
+	margin-top: 100px;
+	margin-left: -85px;
+}}
+
+@media (max-width: 599px){
+	/*footer*/
+
+.panel-footer section{
+	margin-bottom: 30px;
+	text-align: center;
+}	
+
+.panel-footer section:nth-child(3){
+	margin-bottom: 0;/*margin already exists on the whole row*/
+}
+
+.panel-footer section hr{
+	width: 50%;
+}
+
+/*single category*/
+ #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
+}
